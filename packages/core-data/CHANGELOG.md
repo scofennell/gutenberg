@@ -1,8 +1,12 @@
-## 2.0.16 (Unreleased)
+## 2.1.0 (Unreleased)
 
 ### Bug Fixes
 
 - Fixed the `hasUploadPermissions` selector to always return a boolean. Previously, it may have returned an empty object. This should have no impact for most consumers, assuming usage as a [truthy value](https://developer.mozilla.org/en-US/docs/Glossary/Truthy) in conditions.
+
+### New features
+- The `getAutosave`, `getAutosaveAttribute`, and `hasAutosave` selectors were added.
+- The `resetAutosave` action creator has been added.
 
 ## 2.0.15 (2018-12-12)
 

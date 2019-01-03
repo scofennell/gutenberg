@@ -12,6 +12,8 @@ Install the module
 npm install @wordpress/data --save
 ```
 
+You will need to declare the wp-data script as a dependancy when enqueueing your JavaScript in order to use the wp.data module.
+
 _This package assumes that your code will run in an **ES2015+** environment. If you're using an environment that has limited or no support for ES2015+ such as lower versions of IE then using [core-js](https://github.com/zloirock/core-js) or [@babel/polyfill](https://babeljs.io/docs/en/next/babel-polyfill) will add support for these methods. Learn more about it in [Babel docs](https://babeljs.io/docs/en/next/caveats)._
 
 ## Registering a Store
